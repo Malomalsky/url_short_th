@@ -5,7 +5,7 @@ import telebot
 
 TOKEN = os.getenv('URL_SH_TOKEN')
 
-bot = telebot.TeleBot(TOKEN2)
+bot = telebot.TeleBot(TOKEN)
 URL = 'https://url-sh0rt.herokuapp.com'
 
 @bot.message_handler(commands=['post_orig'], content_types=['text'])
